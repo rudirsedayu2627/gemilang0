@@ -1,0 +1,4 @@
+# Berkas media boleh diakses, tapi tidak boleh dieksekusi sebagai PHP
+<FilesMatch "\.(php|phtml|phar)$">
+Require all denied
+</FilesMatch>

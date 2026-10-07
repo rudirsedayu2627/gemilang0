@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <!-- Favicon = logo bawaan aplikasi (seal) supaya ikon tab sama dengan logo di situs.
+       Bila admin mengunggah/mengisi logo sendiri di Pengaturan -> Website, favicon.php
+       memakai logo itu (dipotong 64x64). Markup ini sejalan dengan logo_svg() di
+       includes/helpers.php. -->
+  <defs><linearGradient id="glcf" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#4F46E5"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient></defs>
+  <circle cx="32" cy="32" r="30" fill="url(#glcf)"/>
+  <circle cx="32" cy="32" r="25.5" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="1.2"/>
+  <path d="M18 34.5c4-2.2 9-2.2 14 0 5-2.2 10-2.2 14 0V24c-4-2.2-9-2.2-14 0-5-2.2-10-2.2-14 0z" fill="#fff"/>
+  <path d="M32 24v10.5" stroke="#4F46E5" stroke-width="1.2"/>
+  <path d="M14 40.5c6 3.5 12 3.5 18 0 6 3.5 12 3.5 18 0" stroke="#fff" stroke-opacity=".85" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M44 16.5c-3 3.5-4.5 7-4.5 10.5 0 1.7 1.3 3 3 3s3-1.3 3-3c0-3.5-.5-7-1.5-10.5z" fill="#fff" fill-opacity=".9"/>
+</svg>
